@@ -83,7 +83,7 @@ adduser -h /home/multistreamer -g multistreamer -s /sbin/nologin -S -D multistre
 cd /home/multistreamer
 
 curl -R -L -o multistreamer-$MULTISTREAMER_VER.tar.gz \
-    https://github.com/jprjr/multistreamer/archive/$MULTISTREAMER_VER.tar.gz
+    https://github.com/lukemcgregor23/multistreamer/archive/$MULTISTREAMER_VER.tar.gz
 tar xzf multistreamer-$MULTISTREAMER_VER.tar.gz
 
 mv multistreamer-$MULTISTREAMER_VER/* .
